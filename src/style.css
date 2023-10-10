@@ -1,0 +1,51 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul > li{
+    display: inline;
+    margin: 0 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color:black;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+a:focus{
+    color: orange;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+}
+
+footer{
+    text-align: center;
+}
