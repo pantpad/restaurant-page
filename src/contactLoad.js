@@ -7,7 +7,7 @@ export default (function(){
 
         const paragraph = document.createElement('p');
         let text = `We're not just about crafting mouthwatering pizzas; we're also all ears when it comes to your feedback, questions, or special requests.
-        Connecting with Pizza Paradise is a breeze through our customer-centric Contact Page. 
+        Connecting with Da Michele Paradise is a breeze through our customer-centric Contact Page. 
         Here's why it's the gateway to a slice of pizza perfection:`
         paragraph.textContent = text;
 
