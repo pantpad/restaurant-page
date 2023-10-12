@@ -1,8 +1,16 @@
 body{
     font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
     margin: 0;
     padding: 0;
     border: 0;
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .nav-container{
@@ -43,7 +51,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 500px;
+    max-width: 1050px;
 }
 
 footer{
