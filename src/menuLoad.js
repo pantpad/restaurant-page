@@ -14,8 +14,8 @@ export default (function () {
 
         const grid = document.createElement('div');
         grid.style.display = "grid";
-        grid.style.gridTemplateColumns = "200px 200px";
-        grid.style.gridTemplateRows = "200px 200px";
+        grid.style.gridTemplateColumns = "400px 400px";
+        grid.style.gridTemplateRows = "400px 400px";
 
         grid.appendChild(createPizza("https://images.pexels.com/photos/18542518/pexels-photo-18542518/free-photo-of-pizza-straight-from-oven.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"));
         grid.appendChild(createPizza("https://images.pexels.com/photos/1146760/pexels-photo-1146760.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"));

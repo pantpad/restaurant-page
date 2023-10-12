@@ -14,8 +14,8 @@ export default (function(){
         const image = new Image();
         const imageUrl = "https://images.pexels.com/photos/3935702/pexels-photo-3935702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
         image.src = imageUrl;
-        image.width = "300";
-        image.height = "200";
+        image.width = "600";
+        image.height = "400";
 
         container.appendChild(heading);
         container.appendChild(paragraph);
